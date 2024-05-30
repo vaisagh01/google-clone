@@ -59,10 +59,10 @@ function SearchPage() {
                 </header>
 
                 <div className='lg:px-10 md:px-10'>
-                    {
+                    {/* {
                         data.spelling && 
                         <p className='text-xs md:text-sm  text-slate-600 px-10'>Showing results for {data.spelling.correctedQuery} instead of {query}</p>
-                    }
+                    } */}
                     {
                         data && 
                         <p className='text-xs md:text-sm  text-slate-600 px-10'>Found {data.searchInformation.formattedTotalResults} for {query} in {data.searchInformation.formattedSearchTime}</p>
